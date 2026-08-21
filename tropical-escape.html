@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tropical Escape — Wanderly</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- 01 HEADER -->
+<header class="site-header">
+  <div class="logo">
+    <svg viewBox="0 0 24 24"><path d="M21 16v-2l-8-5V3.5a1.5 1.5 0 0 0-3 0V9l-8 5v2l8-2.5V19l-3 2v1.5l4.5-1 4.5 1V21l-3-2v-5.5l8 2.5z"/></svg>
+    Wanderly
+  </div>
+  <nav class="main-nav">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="destinations.html">Destinations</a></li>
+      <li><a href="packages.html" class="active">Packages</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="header-right">
+    <a class="btn" href="plan-trip.html">Plan Your Trip</a>
+    <button class="hamburger" id="hamburgerBtn" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<!-- Mobile dropdown nav -->
+<div class="mobile-nav" id="mobileNav">
+  <a href="index.html" class="mobile-link">Home</a>
+  <a href="destinations.html" class="mobile-link">Destinations</a>
+  <a href="packages.html" class="mobile-link active">Packages</a>
+  <a href="about.html" class="mobile-link">About</a>
+  <a href="contact.html" class="mobile-link">Contact</a>
+  <a class="btn mobile-plan" href="plan-trip.html">Plan Your Trip</a>
+</div>
+
+<!-- PACKAGE HERO -->
+<section class="hero pkg-hero">
+  <img class="hero-photo" src="https://picsum.photos/id/1024/1200/700" alt="Tropical Escape">
+  <div class="hero-content">
+    <div class="breadcrumb"><a href="packages.html">Packages</a> / Tropical Escape</div>
+    <h1>Tropical Escape</h1>
+    <p>Relax in the tropics with white-sand beaches, overwater villas and island tours.</p>
+  </div>
+</section>
+
+<!-- PACKAGE DETAIL -->
+<section class="section">
+  <div class="pkg-detail">
+    <div>
+      <h2>Overview</h2>
+      <p>Escape to a tropical paradise with turquoise waters, powder-soft beaches and unforgettable sunsets. This package blends relaxation with light adventure — perfect for couples, families or solo travelers looking to unwind.</p>
+
+      <h2>Itinerary</h2>
+      <ul class="itinerary-list">
+        <li><strong>Day 1:</strong> Arrival, welcome dinner and beachfront check-in</li>
+        <li><strong>Day 2:</strong> Snorkeling tour and island hopping</li>
+        <li><strong>Day 3:</strong> Free day at the resort / optional spa</li>
+        <li><strong>Day 4:</strong> Sunset cruise and local village visit</li>
+        <li><strong>Day 5:</strong> Breakfast and departure</li>
+      </ul>
+
+      <h2>What's Included</h2>
+      <ul class="includes-list">
+        <li>4 nights accommodation</li>
+        <li>Daily breakfast</li>
+        <li>Airport transfers</li>
+        <li>Snorkeling tour</li>
+        <li>Sunset cruise</li>
+        <li>24/7 local support</li>
+      </ul>
+    </div>
+
+    <aside class="pkg-summary-card">
+      <div class="pkg-price">From $799 <span style="font-size:.85rem;font-weight:500;color:var(--ink-soft);">/ person</span></div>
+      <div class="summary-row"><span>Duration</span><span>5 Days / 4 Nights</span></div>
+      <div class="summary-row"><span>Group size</span><span>Up to 12</span></div>
+      <div class="summary-row"><span>Best time</span><span>Nov – Apr</span></div>
+      <a class="btn" href="plan-trip.html">Book This Package</a>
+    </aside>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer id="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo">
+          <svg viewBox="0 0 24 24"><path d="M21 16v-2l-8-5V3.5a1.5 1.5 0 0 0-3 0V9l-8 5v2l8-2.5V19l-3 2v1.5l4.5-1 4.5 1V21l-3-2v-5.5l8 2.5z"/></svg>
+          Wanderly
+        </div>
+        <p>Discover more. Travel further. We make your travel dreams come true.</p>
+        <div class="socials">
+          <a href="#" aria-label="Facebook">f</a>
+          <a href="#" aria-label="Instagram">ig</a>
+          <a href="#" aria-label="Twitter">tw</a>
+          <a href="#" aria-label="YouTube">yt</a>
+        </div>
+      </div>
+      <div>
+        <h4>Useful Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="destinations.html">Destinations</a></li>
+          <li><a href="packages.html">Packages</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Popular Destinations</h4>
+        <ul>
+          <li><a href="destinations.html">Bali</a></li>
+          <li><a href="destinations.html">Dubai</a></li>
+          <li><a href="destinations.html">Maldives</a></li>
+          <li><a href="destinations.html">Switzerland</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact Us</h4>
+        <div class="contact-item"><span class="ic">📞</span> +1 234 567 8900</div>
+        <div class="contact-item"><span class="ic">✉️</span> info@wanderly.com</div>
+        <div class="contact-item"><span class="ic">📍</span> 123 Travel Street, Adventure City, 10001</div>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2026 Wanderly. All rights reserved.</div>
+  </div>
+</footer>
+
+<button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+<script src="wander.js"></script>
+</body>
+</html>

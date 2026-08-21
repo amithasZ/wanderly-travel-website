@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Home — Wanderly</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ================= HEADER ================= -->
+
+  <header class="site-header">
+
+    <div class="logo">
+      <svg viewBox="0 0 24 24">
+        <path d="M21 16v-2l-8-5V3.5a1.5 1.5 0 0 0-3 0V9l-8 5v2l8-2.5V19l-3 2v1.5l4.5-1 4.5 1V21l-3-2v-5.5l8 2.5z"/>
+      </svg>
+
+      Wanderly
+    </div>
+
+
+    <nav class="main-nav">
+      <ul>
+
+        <li>
+          <a href="index.html" class="active">Home</a>
+        </li>
+
+        <li>
+          <a href="destinations.html">Destinations</a>
+        </li>
+
+        <li>
+          <a href="packages.html">Packages</a>
+        </li>
+
+        <li>
+          <a href="about.html">About</a>
+        </li>
+
+        <li>
+          <a href="contact.html">Contact</a>
+        </li>
+
+      </ul>
+    </nav>
+
+
+    <div class="header-right">
+
+      <a class="btn" href="plan-trip.html">
+        Plan Your Trip
+      </a>
+
+      <button
+        class="hamburger"
+        id="hamburgerBtn"
+        aria-label="Toggle menu"
+        aria-expanded="false"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+    </div>
+
+  </header>
+
+
+  <!-- ================= MOBILE NAV ================= -->
+
+  <div class="mobile-nav" id="mobileNav">
+
+    <a href="index.html" class="mobile-link active">
+      Home
+    </a>
+
+    <a href="destinations.html" class="mobile-link">
+      Destinations
+    </a>
+
+    <a href="packages.html" class="mobile-link">
+      Packages
+    </a>
+
+    <a href="about.html" class="mobile-link">
+      About
+    </a>
+
+    <a href="contact.html" class="mobile-link">
+      Contact
+    </a>
+
+    <a class="btn mobile-plan" href="plan-trip.html">
+      Plan Your Trip
+    </a>
+
+  </div>
+
+
+  <!-- ================= HERO SLIDER ================= -->
+
+  <section class="hero hero-slider" id="home">
+
+    <!-- Slide 1 -->
+
+    <div class="hero-slide active">
+
+      <img
+        src="https://picsum.photos/id/1018/1600/900"
+        alt="Mountain lake"
+      >
+
+      <div class="hero-content">
+
+        <div class="eyebrow">
+          Discover More. Travel Further.
+        </div>
+
+        <h1>
+          Explore the World,<br>
+          Your Way
+        </h1>
+
+        <p>
+          From breathtaking landscapes to vibrant cities,
+          we help you plan unforgettable journeys.
+        </p>
+
+        <a class="btn" href="explore.html">
+          Explore Now →
+        </a>
+
+      </div>
+
+    </div>
+
+
+    <!-- Slide 2 -->
+
+    <div class="hero-slide">
+
+      <img
+        src="https://picsum.photos/id/1015/1600/900"
+        alt="Adventure landscape"
+      >
+
+      <div class="hero-content">
+
+        <div class="eyebrow">
+          Adventure Awaits
+        </div>
+
+        <h1>
+          Find Your Next<br>
+          Great Escape
+        </h1>
+
+        <p>
+          Handpicked destinations and travel experiences
+          designed around you.
+        </p>
+
+        <a class="btn" href="destinations.html">
+          View Destinations →
+        </a>
+
+      </div>
+
+    </div>
+
+
+    <!-- Slide 3 -->
+
+    <div class="hero-slide">
+
+      <img
+        src="https://picsum.photos/id/1016/1600/900"
+        alt="Coastal journey"
+      >
+
+      <div class="hero-content">
+
+        <div class="eyebrow">
+          Travel Better
+        </div>
+
+        <h1>
+          Memories Begin<br>
+          With A Journey
+        </h1>
+
+        <p>
+          Choose a package, plan your trip
+          and turn your travel ideas into real memories.
+        </p>
+
+        <a class="btn" href="packages.html">
+          View Packages →
+        </a>
+
+      </div>
+
+    </div>
+
+
+    <!-- Slider Arrows -->
+
+    <button
+      class="slider-arrow prev"
+      aria-label="Previous slide"
+    >
+      ‹
+    </button>
+
+    <button
+      class="slider-arrow next"
+      aria-label="Next slide"
+    >
+      ›
+    </button>
+
+
+    <!-- Slider Dots -->
+
+    <div class="slider-dots">
+
+      <button
+        class="dot active"
+        aria-label="Slide 1"
+      ></button>
+
+      <button
+        class="dot"
+        aria-label="Slide 2"
+      ></button>
+
+      <button
+        class="dot"
+        aria-label="Slide 3"
+      ></button>
+
+    </div>
+
+  </section>
+
+
+  <!-- ================= POPULAR DESTINATIONS ================= -->
+
+  <section class="section reveal" id="destinations">
+
+    <div class="section-head">
+
+      <h2>
+        📍 Popular Destinations
+      </h2>
+
+      <a
+        href="destinations.html"
+        class="view-all"
+      >
+        View All Destinations →
+      </a>
+
+    </div>
+
+
+    <div class="dest-grid">
+
+
+      <!-- Bali -->
+
+      <div class="dest-card">
+
+        <div class="dest-photo">
+
+          <img
+            src="https://picsum.photos/id/1039/600/400"
+            alt="Bali Indonesia"
+          >
+
+        </div>
+
+        <div class="body">
+
+          <h3>
+            Bali, Indonesia
+          </h3>
+
+          <p>
+            Tropical beaches, temples and culture.
+          </p>
+
+          <a
+            href="destinations.html#bali"
+            class="explore-link"
+          >
+            Explore →
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <!-- Dubai -->
+
+      <div class="dest-card">
+
+        <div class="dest-photo">
+
+          <img
+            src="https://picsum.photos/id/1048/600/400"
+            alt="Dubai UAE"
+          >
+
+        </div>
+
+        <div class="body">
+
+          <h3>
+            Dubai, UAE
+          </h3>
+
+          <p>
+            Modern cities, luxury shopping and adventure.
+          </p>
+
+          <a
+            href="destinations.html#dubai"
+            class="explore-link"
+          >
+            Explore →
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <!-- Maldives -->
+
+      <div class="dest-card">
+
+        <div class="dest-photo">
+
+          <img
+            src="https://picsum.photos/id/1071/600/400"
+            alt="Maldives"
+          >
+
+        </div>
+
+        <div class="body">
+
+          <h3>
+            Maldives
+          </h3>
+
+          <p>
+            Crystal clear water and island relaxation.
+          </p>
+
+          <a
+            href="destinations.html#maldives"
+            class="explore-link"
+          >
+            Explore →
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <!-- Switzerland -->
+
+      <div class="dest-card">
+
+        <div class="dest-photo">
+
+          <img
+            src="https://picsum.photos/id/1043/600/400"
+            alt="Switzerland"
+          >
+
+        </div>
+
+        <div class="body">
+
+          <h3>
+            Switzerland
+          </h3>
+
+          <p>
+            Alpine views, lakes and mountain adventures.
+          </p>
+
+          <a
+            href="destinations.html#switzerland"
+            class="explore-link"
+          >
+            Explore →
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- ================= TRAVEL PACKAGES ================= -->
+
+  <section class="section reveal" id="packages">
+
+    <div class="section-head">
+
+      <h2>
+        🧳 Travel Packages
+      </h2>
+
+      <a
+        href="packages.html"
+        class="view-all"
+      >
+        View All Packages →
+      </a>
+
+    </div>
+
+
+    <div class="pkg-grid">
+
+
+      <!-- Tropical Escape -->
+
+      <div class="pkg-card">
+
+        <div class="pkg-photo">
+
+          <img
+            src="https://picsum.photos/id/1024/700/450"
+            alt="Tropical Escape"
+          >
+
+        </div>
+
+        <div class="body">
+
+          <h3>
+            Tropical Escape
+          </h3>
+
+          <div class="pkg-days">
+            5 Days / 4 Nights
+          </div>
+
+          <p class="pkg-desc">
+            Relax in the tropics with beaches and island tours.
+          </p>
+
+          <div class="pkg-price">
+            From $799
+          </div>
+
+          <a
+            class="btn"
+            href="tropical-escape.html"
+          >
+            View Package
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <!-- Mountain Adventure -->
+
+      <div class="pkg-card">
+
+        <div class="pkg-photo">
+
+          <img
+            src="https://picsum.photos/id/1053/700/450"
+            alt="Mountain Adventure"
+          >
+
+        </div>
+
+        <div class="body">
+
+          <h3>
+            Mountain Adventure
+          </h3>
+
+          <div class="pkg-days">
+            7 Days / 6 Nights
+          </div>
+
+          <p class="pkg-desc">
+            Hiking, nature and scenic mountain views.
+          </p>
+
+          <div class="pkg-price">
+            From $999
+          </div>
+
+          <a
+            class="btn"
+            href="mountain-adventure.html"
+          >
+            View Package
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <!-- European Highlights -->
+
+      <div class="pkg-card">
+
+        <div class="pkg-photo">
+
+          <img
+            src="https://picsum.photos/id/1063/700/450"
+            alt="European Highlights"
+          >
+
+        </div>
+
+        <div class="body">
+
+          <h3>
+            European Highlights
+          </h3>
+
+          <div class="pkg-days">
+            6 Days / 5 Nights
+          </div>
+
+          <p class="pkg-desc">
+            Explore iconic cities and historic landmarks.
+          </p>
+
+          <div class="pkg-price">
+            From $1,299
+          </div>
+
+          <a
+            class="btn"
+            href="european-highlights.html"
+          >
+            View Package
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- ================= ABOUT / WHY WANDERLY ================= -->
+
+  <section class="split-feature reveal">
+
+    <img
+      src="https://picsum.photos/id/1040/900/650"
+      alt="About Wanderly"
+    >
+
+    <div>
+
+      <span class="eyebrow dark">
+        Why Wanderly
+      </span>
+
+      <h2>
+        Travel made simple, personal and memorable.
+      </h2>
+
+      <p>
+        We combine carefully chosen destinations,
+        trusted travel planning and friendly support
+        so every journey feels easier from the first idea
+        to the final day.
+      </p>
+
+      <a
+        class="btn"
+        href="about.html"
+      >
+        About Us →
+      </a>
+
+    </div>
+
+  </section>
+
+
+  <!-- ================= FINAL CTA ================= -->
+
+  <section class="final-cta reveal">
+
+    <div class="cta-inner cta-image">
+
+      <div>
+
+        <h2>
+          Ready for Your Next Adventure?
+        </h2>
+
+        <p>
+          Let us help you plan a trip you'll never forget.
+        </p>
+
+      </div>
+
+      <a
+        class="btn white"
+        href="plan-trip.html"
+      >
+        Plan Your Trip →
+      </a>
+
+    </div>
+
+  </section>
+
+
+  <!-- ================= FOOTER ================= -->
+
+  <footer id="footer">
+
+    <div class="container">
+
+      <div class="footer-grid">
+
+
+        <!-- Brand -->
+
+        <div class="footer-brand">
+
+          <div class="logo">
+
+            <svg viewBox="0 0 24 24">
+              <path d="M21 16v-2l-8-5V3.5a1.5 1.5 0 0 0-3 0V9l-8 5v2l8-2.5V19l-3 2v1.5l4.5-1 4.5 1V21l-3-2v-5.5l8 2.5z"/>
+            </svg>
+
+            Wanderly
+
+          </div>
+
+          <p>
+            Discover more. Travel further.
+            We make your travel dreams come true.
+          </p>
+
+          <div class="socials">
+
+            <a href="#">f</a>
+            <a href="#">ig</a>
+            <a href="#">tw</a>
+            <a href="#">yt</a>
+
+          </div>
+
+        </div>
+
+
+        <!-- Useful Links -->
+
+        <div>
+
+          <h4>
+            Useful Links
+          </h4>
+
+          <ul>
+
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+
+            <li>
+              <a href="destinations.html">Destinations</a>
+            </li>
+
+            <li>
+              <a href="packages.html">Packages</a>
+            </li>
+
+            <li>
+              <a href="about.html">About</a>
+            </li>
+
+            <li>
+              <a href="contact.html">Contact</a>
+            </li>
+
+          </ul>
+
+        </div>
+
+
+        <!-- Popular Destinations -->
+
+        <div>
+
+          <h4>
+            Popular Destinations
+          </h4>
+
+          <ul>
+
+            <li>
+              <a href="destinations.html#bali">
+                Bali
+              </a>
+            </li>
+
+            <li>
+              <a href="destinations.html#dubai">
+                Dubai
+              </a>
+            </li>
+
+            <li>
+              <a href="destinations.html#maldives">
+                Maldives
+              </a>
+            </li>
+
+            <li>
+              <a href="destinations.html#switzerland">
+                Switzerland
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+
+        <!-- Contact -->
+
+        <div>
+
+          <h4>
+            Contact Us
+          </h4>
+
+          <div class="contact-item">
+            📞 +1 234 567 8900
+          </div>
+
+          <div class="contact-item">
+            ✉️ info@wanderly.com
+          </div>
+
+          <div class="contact-item">
+            📍 123 Travel Street, Adventure City
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <div class="footer-bottom">
+        © 2026 Wanderly. All rights reserved.
+      </div>
+
+    </div>
+
+  </footer>
+
+
+  <!-- ================= BACK TO TOP ================= -->
+
+  <button
+    class="back-to-top"
+    id="backToTop"
+    aria-label="Back to top"
+  >
+    ↑
+  </button>
+
+
+  <!-- ================= JAVASCRIPT ================= -->
+
+  <script src="wander.js"></script>
+
+</body>
+
+</html>
